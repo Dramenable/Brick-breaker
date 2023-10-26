@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>game</title>
+</head>
+<body class="fondo">
+	<div class="container">
+		<div class="centrado">
+			<h1>Brick Breaker</h1>
+		</div>
+
+		<div class="contenedor">
+		</div>
+		<div>
+		 	<h2 id="SelectDifficulty" class="centrado">Select Difficulty</h2>	
+		</div>
+
+		<div id="GameOverScreen" class="centrado"> <!--Div para comentario de gamer over --> 
+			
+		</div>
+		<div id="divBoton" onclick="restart();" class="centrado">
+			<button id="botonPlayAgain" class="ocultar">Play again</button>
+		</div>
+
+		<div id="divBotonFacil" onclick="dificultadFacil();" class="centrado">
+			<button id="botonFacil" class="dificultades">Easy</button>
+		</div>
+
+		<div id="divBotonMedio" onclick="dificultadMedia();" class="centrado">
+			<button id="botonMedia" class="dificultades">Medium</button>
+		</div>
+
+		<div id="divBotonImposible" onclick="dificultadImposible();" class="centrado">
+			<button id="botonImposible" class="dificultades">Hell</button>
+		</div>
+		
+	</div>
+	<script src="code.js"></script>
+
+</body>
+</html>
